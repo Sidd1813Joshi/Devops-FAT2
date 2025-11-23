@@ -23,3 +23,22 @@
 - All updates happen through pull requests, enabling better traceability, rollback, and consistency.
 
 
+
+To complete this assignment, I first created a Dockerfile and added all the Linux commands I wanted to run inside a container. I wrote each command inside separate `RUN` instructions so that they execute during the image build process. This helped me understand how Docker layers work and how commands get executed inside container environments.
+
+After creating the Dockerfile, I built a Docker image using the `docker build` command. This generated a custom image based on Ubuntu with all the commands already executed during the build. Once the image was built successfully, I used `docker run` to test the container and make sure it was running properly.
+
+Next, I made a repository in GitHub and named it Devops-FAT2. Then i came into my folder and cloned that repository using `git clone`. Next I added my changes, committed them and pushed them into the repository.
+
+This assignment helped me understand Dockerfile syntax, how Docker builds images layer-by-layer, and how to work with Git for version control.
+
+#### Docker Commands
+- docker build -t siddhantj31/devopsfat2 .
+- docker run siddhantj31/devopsfat2
+- docker push siddhantj31/devopsfat2
+
+#### GitHub Commands
+- git clone https://github.com/Sidd1813Joshi/Devops-FAT2.git
+- git add .
+- git commit -m "Dockerfile and README file added"
+- git push
