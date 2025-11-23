@@ -23,6 +23,7 @@
 - All updates happen through pull requests, enabling better traceability, rollback, and consistency.
 
 
+### How I completed this assignment
 
 To complete this assignment, I first created a Dockerfile and added all the Linux commands I wanted to run inside a container. I wrote each command inside separate `RUN` instructions so that they execute during the image build process. This helped me understand how Docker layers work and how commands get executed inside container environments.
 
