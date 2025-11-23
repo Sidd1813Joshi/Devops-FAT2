@@ -45,3 +45,10 @@ This assignment helped me understand Dockerfile syntax, how Docker builds images
 - git commit -m "Dockerfile and README file added"
 - git push
 
+
+## How this assignment helped me learn Devops, Linux, Git and Docker
+
+- This assignment helped me understand DevOps better because I actually created something end-to-end instead of just learning it. Writing a Dockerfile and automating all the commands showed me how DevOps focuses on consistency and reducing manual work.
+- I also learned Linux because I had to use basic commands inside the container. Running commands like `whoami`, `ps`, `top`, and `lscpu` helped me understand how Linux systems work and how to check what’s happening inside them.
+- Using Git taught me how to track my work properly. Initializing the repo, committing changes, and pushing everything to GitHub made me more comfortable with real version-control workflows.
+- Docker helped me learn how applications and commands can run in an isolated environment. Building the image and running the container gave me a better idea of how containers work and why they are used so much in DevOps.
